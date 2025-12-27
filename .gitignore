@@ -1,0 +1,21 @@
+# --- Büyük Veri Dosyaları (ASLA GİT'E ATILMAZ) ---
+*.sqlite
+*.csv
+*.parquet
+*.zip
+/data/
+
+# --- Python Gereksizleri ---
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+# --- Sanal Ortam (Varsa) ---
+venv/
+env/
+.env
+
+# --- IDE Ayarları (VSCode, PyCharm vs.) ---
+.vscode/
+.idea/
